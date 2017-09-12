@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
-    <title>Producer_help</title>
+    <title>Sign up</title>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -25,7 +25,7 @@
      } --> 
 
 <div class="container">
-
+<h1 font size: "4" ; color= "696969" align="CENTER" class= "grey-text text-darken-1">BUYER SIGN UP</h1>
 <hr>
 <br>
       <div class="row">
@@ -38,13 +38,85 @@
         <form>
         <form action="/action_page.php">
 
- <h4 font size: "4" ; color= "696969" align="CENTER" class= "grey-text text-darken-1">CONGRATS! YOUR REQUEST HAS BEEN SUBMITTED! WE WILL GET BACK TO YOU!</h4>
 
-        <div align="center"><a href="index.html"> <button class="btn waves-effect waves-light" type="button" name="action" >GO BACK TO HOMEPAGE
+          
+
+
+ <div class="input-field col s6">
+ <i class="material-icons prefix">account_circle</i>
+          <input  id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+
+        </div>
+
+        <div class="input-field col s7">
+          <input id="phone_number" type="tel" class="validate">
+          <label for="phone_number">Phone Number</label>
+        </div>
+
     
-  </button></a></div>
+        <div class="input-field col s7">
+          <input id="area" type="text" class="validate">
+          <label for="area">Address</label>
+        </div>
 
-        
+       <!-- <div class="input-field col s7">
+          <input id="street" type="text" class="validate">
+          <label for="street">Street</label>
+        </div>-->
+
+        <div class="input-field col s7">
+          <input id="city_name" type="text" class="validate">
+          <label for="city_name">City</label>
+        </div>
+
+ <div class="input-field col s7">
+          <input id="state_name" type="text" class="validate">
+          <label for="state_name">State</label>
+        </div>
+
+  <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="Shopkeeper_ID" type="number" class="validate">
+          <label for="Shopkeeper_ID">Shopkeeper_ID </label>
+        </div>
+      </div>
+
+      <form action="#">
+    <div class="file-field input-field">
+      <div class="btn">
+        <span>Aadhar Card</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+  </form>
+
+<br><br>
+
+     <a href="index.html"> <button class="btn waves-effect waves-light" type="button" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button></a>
   </fieldset>
     </form>
     <div class="col s12 m4 l3"></div>

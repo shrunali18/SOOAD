@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
-    <title>Log in</title>
+    <title>Sign up</title>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -25,7 +25,7 @@
      } --> 
 
 <div class="container">
-<h1 font size: "4" ; color= "696969" align="CENTER" class= "grey-text text-darken-1">BUYER LOG IN</h1>
+<h1 font size: "4" ; color= "696969" align="CENTER" class= "grey-text text-darken-1">TRANSPORTER SIGN UP</h1>
 <hr>
 <br>
       <div class="row">
@@ -38,8 +38,12 @@
         <form>
         <form action="/action_page.php">
 
+
+         
+
+
  <div class="input-field col s6">
-  <!-- <i class="material-icons prefix">account_circle</i>
+ <i class="material-icons prefix">account_circle</i>
           <input  id="first_name" type="text" class="validate">
           <label for="first_name">First Name</label>
         </div>
@@ -50,16 +54,21 @@
 
         </div>
 
+        <div class="input-field col s7">
+          <input id="phone_number" type="tel" class="validate">
+          <label for="phone_number">Phone Number</label>
+        </div>
+
     
         <div class="input-field col s7">
           <input id="area" type="text" class="validate">
           <label for="area">Address</label>
         </div>
 
-       <!- <div class="input-field col s7">
+       <!-- <div class="input-field col s7">
           <input id="street" type="text" class="validate">
           <label for="street">Street</label>
-        </div>
+        </div>-->
 
         <div class="input-field col s7">
           <input id="city_name" type="text" class="validate">
@@ -69,7 +78,7 @@
  <div class="input-field col s7">
           <input id="state_name" type="text" class="validate">
           <label for="state_name">State</label>
-        </div --> 
+        </div>
 
   <div class="row">
         <div class="input-field col s12">
@@ -83,38 +92,49 @@
           <label for="password">Password</label>
         </div>
       </div>
-<!-- <h7 class= "grey-text text-darken-2">Products</h7><br>
-        <input type="checkbox" id="potato" unchecked="unchecked" />
-      <label for="potato">Potato</label> <br>
-      <input type="checkbox" id="onion" unchecked="unchecked" />
-<label for="onion">Onion</label>  <br>  
 
-      <input type="checkbox" id="wheat" unchecked="unchecked" />
-<label for="wheat">Wheat</label>  <br>  
+      
 
-      <input type="checkbox" id="rice" unchecked="unchecked" />
-<label for="rice">Rice</label>   <br> 
-    <p>
-     <input type="checkbox" id="remusr" checked="checked" />
-      <label for="remusr">Remember Username</label> 
-    </p>
-<br>
+<div class="row">
+        <div class="input-field col s12">
+          <input id="Vehicle Number Plate" type="text" class="validate">
+          <label for="Vehicle Number Plate">Vehicle Number Plate</label>
+        </div>
+      </div>
 
-<h7 class= "grey-text text-darken-2">Quantity to be brought</h7><br>
-        <input type="checkbox" id="100 kg" unchecked="unchecked" />
-      <label for="100 kg">100 kg</label> <br>
-      <input type="checkbox" id="500 kg" unchecked="unchecked" />
-<label for="500 kg">500 kg</label>  <br>  
 
-      <input type="checkbox" id="1000 kg" unchecked="unchecked" />
-<label for="1000 kg">1000 kg</label>  <br>  
 
-      <input type="checkbox" id="2000 kg" unchecked="unchecked" />
-<label for="2000 kg">2000 kg</label>   <br> 
+      <form action="#">
+    <div class="file-field input-field">
+      <div class="btn">
+        <span>License</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+  </form>
 
-<br> -->
+ <form action="#">
+    <div class="file-field input-field">
+      <div class="btn">
+        <span>Aadhar Card</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+  </form>
 
-     <a href="buyer_inside.html"> <button class="btn waves-effect waves-light" type="button" name="action">Submit
+
+
+<br><br>
+
+
+
+     <a href="index.html"> <button class="btn waves-effect waves-light" type="button" name="action">Submit
     <i class="material-icons right">send</i>
   </button></a>
   </fieldset>
