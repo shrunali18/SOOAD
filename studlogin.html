@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+    <title>| Login |</title>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.css" />
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+         <style type="text/css">
+
+          fieldset{
+            padding-right: 40px; padding-left: 40px;
+            padding-bottom: 30px; padding-top: 10px;
+          
+
+          }
+
+          
+
+          body{
+          background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png");
+        }
+
+    nav{
+          background-color: #1de9b6;
+        }
+
+         footer.page-footer{
+          background-color: #1de9b6;
+          padding-top: 0px;
+        }
+        </style>
+
+      </style>
+   
+    </head>
+
+    <body>
+
+
+<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo"><h2>Exam helper</h2></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="wt_studsignup.html">Sign Up</a></li>
+      </ul>
+    </div>
+  </nav>
+        
+
+<div class="container">
+<h1 font size: "4" ; color= "696969" align="CENTER" class= "grey-text text-darken-1">LOGIN</h1>
+<hr>
+<br>
+      <div class="row">
+      <div class="col s12 m4 l3"></div>
+    <form class="col s12 m4 l6">
+    <fieldset style="border: 5px solid #1de9b6 ; border-radius: 6px ;">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Registered email ID</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <p>
+      <input type="checkbox" id="remusr" checked="checked" />
+      <label for="remusr">Remember Username</label>
+    </p>
+      <button class="btn waves-effect waves-light" type="submit" name="action">Login
+  </button>
+  </fieldset>
+    </form>
+    <div class="col s12 m4 l3"></div>
+  </div>
+
+         
+
+
+<!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+       <script type="text/javascript">
+      $('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 240
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      }
+      );
+  $('.collapsible').collapsible();
+      </script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanobar/0.4.2/nanobar.min.js"></script>
+      <script type="text/javascript">
+        var options = {
+            classname: 'nanobar',
+          id: 'my-id',
+            target: document.getElementById('myDivId')
+        };
+
+        var nanobar = new Nanobar( options );
+
+        //move bar
+        nanobar.go( 10 );
+        nanobar.go( 20 );
+        nanobar.go( 30 ); // size bar 30%
+        nanobar.go( 40 );
+        nanobar.go( 76 ); // size bar 76%
+        nanobar.go( 90 );
+        // size bar 100% and and finish
+        nanobar.go(100);
+      </script>
+</div>  
+  </body>
+  </html>
+  <br>
+  <br>
+   <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Contact Us</h5>
+                <p class="grey-text text-lighten-4">Exam Helper <br> by DBIT studios<br> MUMBAI<br> 022-25892233</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <a class="white-text"  href= "https://www.quora.com/"><h5>Quora</h5></a>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/"><h5>Facebook</h5></a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Copyright Text
+            <c class="grey-text text-lighten-4 right" href="#!">More Links</c>
+            </div>
+          </div>
+        </footer> 
+
+   
